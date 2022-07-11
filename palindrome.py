@@ -29,18 +29,11 @@ import sys
 
 class Solution:
     # Write code below to complete prompt
-    def isPalindrome(s):
-        return s == s[::-1]
-    s = "RaCeCar"
-    ans = isPalindrome(s)
- 
-   
-   
-    if ans:
-        print("True")
-    else:
-        print("False")        
-        
+    def isPalindrome(self,s):
+        if len(s) >=6 and s[len(s)::-1] == s:
+            return True
+        else:
+            retur False
         
 
 def main():
