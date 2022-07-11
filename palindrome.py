@@ -32,7 +32,7 @@ class Solution:
     def isPalindrome(s):
         return s == s[::-1]
     x = "RaCeCar"
-    ans = isPalindrome(self, s)
+    ans = isPalindrome(s)
  
    
    
