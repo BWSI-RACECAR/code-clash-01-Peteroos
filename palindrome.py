@@ -31,7 +31,7 @@ class Solution:
     # Write code below to complete prompt
     def isPalindrome(s):
         return s == s[::-1]
-    x = "RaCeCar"
+    s = "RaCeCar"
     ans = isPalindrome(s)
  
    
