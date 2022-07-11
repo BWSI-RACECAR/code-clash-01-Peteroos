@@ -33,7 +33,7 @@ class Solution:
         if len(s) >=6 and s[len(s)::-1] == s:
             return True
         else:
-            reture False
+            return False
         
 
 def main():
