@@ -29,7 +29,7 @@ import sys
 
 class Solution:
     # Write code below to complete prompt
-    def isPalindrome(self, s):
+    def isPalindrome(s):
         return s == s[::-1]
     x = "RaCeCar"
     ans = isPalindrome(self, s)
